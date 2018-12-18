@@ -1,0 +1,23 @@
+<!-- 
+Name : Snake Game using HTML5 and Javascript.
+Description : Using the arrow keys the snake is guided to eat food and keeps increasing in size.                 Score depends on how many times the snake eats the food without touching the walls                  or its own body.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Snake Game</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div>Score : <span id="score">0</span></div>
+        <canvas id="play-area" width="600" height="600">
+        </canvas>
+        <script src="js/script.js"></script>
+        <div id="game-over"></div>
+        <button type="button" onclick="reset()" >Reset</button>
+    </body>
+</html>
+
